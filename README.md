@@ -1,3 +1,22 @@
+## To Start
+- Download
+- Run npm install
+- Run command
+     ```
+      docker run --rm \
+      -v $(pwd):/opt \
+      -w /opt \
+      laravelsail/php80-composer:latest \
+      composer install
+  ```
+- add .env file.  Can copy the .env.example.
+    - APP_KEY=[YOUR APP KEY]
+    - APP_URL=[YOUR APP URL] (i.e. http://laravel-react.test)
+    - DB_HOST=mysql
+    - REDIS_HOST=reeds
+- run one of the npm scripts (npm run watch)
+- sail up (install Docker if not already)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
