@@ -15,7 +15,7 @@
     - DB_HOST=mysql
     - REDIS_HOST=reeds
 - run one of the npm scripts (npm run watch)
-- sail up (install Docker if not already)
+- sail up (install Docker before this if you don't have it.)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
