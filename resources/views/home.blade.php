@@ -15,18 +15,11 @@
         </style>
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
     </head>
     <body class="antialiased">
 
         <!-- React root DOM -->
-        <div id="example">
-        </div>
+        <div id="app"></div>
 
         <!-- React JS -->
         <script src="{{ asset('js/app.js') }}" defer></script>
